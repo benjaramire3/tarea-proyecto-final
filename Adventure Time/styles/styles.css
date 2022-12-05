@@ -1,0 +1,23 @@
+/*Resetear css*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Cambiar el estilo de letra*/
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*Añadir color a etiqueta p (el color es del mismo color del body, esto hace un texto invisible)*/
+p {
+    color: green;
+    font-size: 20px;
+}
+
+/*Añadir color rgb a un <p> adentro de un <section> dentro de un class, alinear el texto y poner interlineado*/
+article p {
+    color: rgb(194, 253, 30); font-size: 20px;
+    text-align: center;
+    line-height: 20px;
+}
